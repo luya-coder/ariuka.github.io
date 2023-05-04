@@ -1,0 +1,33 @@
+
+h1{
+      text-align: center;
+      top: 15px;
+      font-size: 30px;
+      color: rgb(255, 255, 255);
+      font: italic;
+   }
+h2{
+      text-align: center;
+      top: 200px;
+      font: italic;
+      color: white;
+      font-size: 20px;
+   }
+
+h3{
+      text-align: center;
+      padding-top: 300px;
+      font-size: 10px;
+      color: rgb(255, 255, 255);
+   }
+
+body {
+      background-color: rgb(59, 59, 59);
+      background-image: url("");
+      overflow: hidden;
+   }
+iframe{
+  display: block;
+  margin: 20px auto;
+
+}
