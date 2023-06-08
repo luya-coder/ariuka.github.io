@@ -7,9 +7,26 @@
    <title>stylish site</title>
    <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+   myButton{
+      position: absolute;
+      top: 50px;
+      left: 50px;
+   }
+   
+   </style>
 <body>
-   <h1>21 savage-A lot</h1>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/DmWWqogr_r8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></body>
-   <h2>you wanna know why i like black colors??</h2>
-   <button onclick="alert('cuz i like ai hoshino her eyes like a star up there in the night sky')">i wanna know why</button>
-</html>
+   <h1>do you like coding?</h1>
+   <button class="myButton" onclick="moveButton()">i hate it very much</button>
+   <button onclick="click">i like it</button>
+   <script>
+      function moveButton(){
+      var button = document.getElementById("myButton");
+      var topPosition = Math.random() * window.innerHeight;
+      var leftPosition = Math.random() * window.innerWidth;
+         button.style.top = topPosition + "px";
+         button.style.left = leftPosition + "px";
+      }
+   </script>
+   </body>
+   </html>
