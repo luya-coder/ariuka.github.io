@@ -8,25 +8,16 @@
    <link rel="stylesheet" href="styles.css">
 </head>
 <style>
-   myButton{
-      position: absolute;
-      top: 50px;
-      left: 50px;
-   }
-   
+#foo {
+  position: relative;
+}
+#foo:hover {
+  top: 5em;
+}
    </style>
 <body>
-   <h1>do you like coding?</h1>
-   <button class="myButton" onclick="moveButton()">i hate it very much</button>
-   <button onclick="click">i like it</button>
-   <script>
-      function moveButton(){
-      var button = document.getElementById("myButton");
-      var topPosition = Math.random() * window.innerHeight;
-      var leftPosition = Math.random() * window.innerWidth;
-         button.style.top = topPosition + "px";
-         button.style.left = leftPosition + "px";
-      }
-   </script>
+<h1>do u like coding?</h1>
+   <button onclick="alert("me too!")">yeah</button>
+   <button id="foo">i hate it</button>
    </body>
    </html>
